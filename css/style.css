@@ -10,14 +10,14 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--p-color);
 }
 
 /* Шапка */
 
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -155,8 +155,12 @@ body {
   background-color: var(--bcg-footer-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -165,15 +169,15 @@ body {
   text-decoration: none;
 }
 
-.address {
+.location {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-color);
   text-decoration: none;
 }
 
-.address:hover,
-.address:focus {
+.location:hover,
+.location:focus {
   color: var(--link-color);
 }
 
